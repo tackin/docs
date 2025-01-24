@@ -1,0 +1,8 @@
+{
+  "label": "Dateien & Ordner",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tutorials rund um die Verwaltung von Ordner & Dateien."
+  }
+}

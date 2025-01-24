@@ -1,0 +1,42 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #9b0aee;
+  --ifm-color-primary-dark: #ad08f4;
+  --ifm-color-primary-darker: #620aee;
+  --ifm-color-primary-darkest: #8b0deb;
+  --ifm-color-primary-light: #9308ea;
+  --ifm-color-primary-lighter: #8b0bf5;
+  --ifm-color-primary-lightest: #8d37c7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(4, 4, 4, 0.1);
+  --ifm-color-secondary: #CA8DF5;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+  background-image: url("/static/img/Test.jpg");
+}
+
+
+
+@font-face {
+  font-family: 'OpenCloudFont';
+  src: url('/static/fonts/OpenCloudFont/OpenCloud500-Regular.otf');
+}
