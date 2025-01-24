@@ -4,22 +4,34 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 ### Installation
 
-```
-$ yarn
+```Shell
+pnpm install
 ```
 
 ### Local Development
 
-```
-$ yarn start
+clone this repository
+
+```Shell
+pnpm start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
+### Start docs in German
+
+To see the docs in German you need to start it with the following command
+
+```Shell
+pnpm run start --locale de
+```
+
+It is not possible to switch between the languages via the language switcher
+
 ### Build
 
-```
-$ yarn build
+```Shell
+pnpm build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
@@ -28,14 +40,28 @@ This command generates static content into the `build` directory and can be serv
 
 Using SSH:
 
-```
-$ USE_SSH=true yarn deploy
+```Shell
+USE_SSH=true pnpm deploy
 ```
 
 Not using SSH:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```Shell
+GIT_USER=<Your GitHub username> pnpm deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+-----
+
+### Standard for screenshots
+
+#### Defined size for screenshots
+
+|what               | size          |
+|:-                 | :-:           |
+|complete screen    | width="1920"  |
+|menue              | width="400"   | 
+|pop up             | width="500"   |
+
+The screenshot should show the important things and you can put red frames arround the specific buttons or areas.

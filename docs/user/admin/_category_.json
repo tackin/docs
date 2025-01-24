@@ -1,0 +1,8 @@
+{
+  "label": "Administration of OpenCloud",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "description": "Tutorials for administrating your OpenCloud."
+  }
+}

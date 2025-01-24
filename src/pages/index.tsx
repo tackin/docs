@@ -3,17 +3,17 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import Translate from '@docusaurus/Translate';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundImage: `url('/img/OpenCloud_Filemanagement_Filesharing_144dpi.jpg')`}}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)} >
       <div className="container">
-        <Heading as="h1" className="hero__title">
+      <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -21,21 +21,33 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/user/intro">
-            User Doku
+              <Translate
+                  id="homepage.link.item.label.User Documentation"
+                  description="The label for the link to user documentation">
+                  User Documentation
+              </Translate>
           </Link>
         </div><br/> 
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/admin/intro">
-            Admin Doku
+              <Translate
+                  id="homepage.link.item.label.Admin Documentation"
+                  description="The label for the link to admin documentation">
+                  Admin Documentation
+              </Translate>
           </Link>
         </div><br/> 
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/dev/intro">
-            Developer Doku
+              <Translate
+                  id="homepage.link.item.label.Developer Documentation"
+                  description="The label for the link to developer documentation">
+                  Developer Documentation
+              </Translate>
           </Link>
         </div>
       </div>
@@ -44,14 +56,11 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
       </main>
     </Layout>
   );

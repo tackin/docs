@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+id: intro
+title: Welcome
 ---
 
-# Wilkommen
+# Documentation for OpenCloud Administrators
 
-bei OpenCloud

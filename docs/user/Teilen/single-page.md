@@ -1,1 +1,0 @@
-# Externes Teilen (öffentliche Links)

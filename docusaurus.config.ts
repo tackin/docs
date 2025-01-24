@@ -5,20 +5,20 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Klare Grenzen. Keine Limits.',
-  tagline: 'Dokumentation',
-  favicon: 'img/favicon.ico',
+  title: 'OpenCloud Docs',
+  tagline: 'Excellent file sharing',
+  favicon: 'img/oc-favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.opencloud.eu',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'opencloud-eu', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'de'],
   },
 
   presets: [
@@ -40,23 +40,9 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/opencloud-eu/docs/tree/main',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -67,11 +53,16 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'OpenCloud Doku',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/Logo-OC.svg',
+        alt: 'OpenCloud Logo',
+        src: 'img/oc-logo-petrol.svg',
+        srcDark: 'img/oc-logo-lilac.svg'
       },
       items: [
         {
@@ -92,16 +83,13 @@ const config: Config = {
           position: 'left',
           label: 'Developer',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/opencloud-eu/opencloud',
-          label: 'GitHub',
-          position: 'right',
-        },
+          type: 'localeDropdown',
+          position: 'right'
+        }
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -110,22 +98,30 @@ const config: Config = {
               label: 'User',
               to: '/docs/user/intro',
             },
+            {
+              label: 'Admin',
+              to: '/docs/admin/intro',
+            },
+            {
+              label: 'Developer',
+              to: '/docs/dev/intro',
+            },
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Xing',
+              href: 'https://www.xing.com/pages/heinleinsupportgmbh',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'X (Twitter)',
+              href: 'https://x.com/heinleinsupport/status/1857429869593788617',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://de.linkedin.com/company/heinlein-support',
             },
           ],
         },
@@ -133,23 +129,42 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Heinlein-Support',
+              href: 'https://www.heinlein-support.de',
+            },
+            {
+              label: 'mailbox.org',
+              href: 'https://mailbox.org/de',
+            },
+            {
+              label: 'OpenTalk',
+              href: 'https://opentalk.mailbox.org',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/opencloud-eu/opencloud',
+              href: 'https://github.com/opencloud-eu',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} OpenCloud, powered by Heinlein Gruppe`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "de"],
+      }),
+    ],
+  ],
 };
 
 export default config;
