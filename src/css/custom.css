@@ -22,13 +22,13 @@
 /* You can override the default Infima variables here. */
 /* Adjust tokens via official color tokens builder https://docusaurus.io/docs/styling-layout */
 :root {
-    --ifm-color-primary: #ca8df5;
-    --ifm-color-primary-dark: #ba6af2;
-    --ifm-color-primary-darker: #b158f0;
-    --ifm-color-primary-darkest: #9923ec;
-    --ifm-color-primary-light: #dab0f8;
-    --ifm-color-primary-lighter: #e3c2fa;
-    --ifm-color-primary-lightest: #fbf7fe;
+    --ifm-color-primary: #8753ac;
+    --ifm-color-primary-dark: #7a4b9b;
+    --ifm-color-primary-darker: #734792;
+    --ifm-color-primary-darkest: #5f3a78;
+    --ifm-color-primary-light: #9364b4;
+    --ifm-color-primary-lighter: #996db8;
+    --ifm-color-primary-lightest: #ab87c5;
     --ifm-code-font-size: 95%;
     --docusaurus-highlighted-code-line-bg: rgba(4, 4, 4, 0.1);
     --ifm-font-family-base: "OpenCloud";
