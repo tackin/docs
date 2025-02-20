@@ -22,7 +22,7 @@
 /* You can override the default Infima variables here. */
 /* Adjust tokens via official color tokens builder https://docusaurus.io/docs/styling-layout */
 :root {
-    --ifm-color-primary: #8753ac;
+    --ifm-color-primary: #A83EF4;
     --ifm-color-primary-dark: #7a4b9b;
     --ifm-color-primary-darker: #734792;
     --ifm-color-primary-darkest: #5f3a78;
