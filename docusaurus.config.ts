@@ -54,9 +54,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
+      defaultMode: 'light'
     },
     navbar: {
       logo: {
@@ -101,6 +99,10 @@ const config: Config = {
             {
               label: 'Admin',
               to: '/docs/admin/intro',
+            },
+            {
+              label: 'Dev',
+              to: '/docs/dev/intro',
             },
           ],
         },
