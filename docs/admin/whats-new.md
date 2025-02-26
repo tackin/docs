@@ -20,7 +20,7 @@ We believe in keeping things simple but powerful.
 - **Advanced Search & Organization**: Use full-text search, tags, and filters for quick access.
 - **Unlimited Storage & Uploads**: No file size restrictions.
 - **Privacy-First Design**: Zero-Knowledge principle ensures admins can't access user content.
-- **Cross-Platform Availability**: Works on Windows, Mac, Linux, Android (soon), iOS (soon), and Web.
+- **Cross-Client Availability**: Works on Windows, Mac, Linux, Android (soon), iOS (soon), and Web.
 
 ---
 
