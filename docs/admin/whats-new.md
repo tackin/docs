@@ -86,7 +86,7 @@ We believe in keeping things simple but powerful.
 
 ## **📜 File Versioning & Recovery**
 
-- **Easy Restoration**: Roll back to previous file versions.
+- **Easy Recovery**: Roll back to previous file versions.
 - **Accidental Change Protection**: Recover files in case of unintended edits.
 - **Deleted File Recovery**: Restore files from the trash bin.
 
