@@ -1,10 +1,17 @@
 ---
 sidebar_position: 3
 id: raspberry-pi
-title: Installation on Raspberry-Pi
+title: Installation on Raspberry Pi
 ---
 
-# OpenCloud on Raspberry-Pi
+# OpenCloud on Raspberry Pi
+
+⚠️ **Note:** This guide shows how to set up **OpenCloud on a Raspberry Pi**. 
+The installation is **only recommended for use in a local network**. 
+If you want to make OpenCloud accessible over the internet, you will need to set up **additional security measures** such as a firewall, SSL certificates and secure authentication.
+This requires advanced network and server knowledge. 
+Without these safeguards, your instance could be vulnerable to attack.
+
 
 ## 1.1 Hardware requirements
 
