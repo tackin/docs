@@ -12,6 +12,7 @@ If you want to make OpenCloud accessible over the internet, you will need to set
 This requires advanced network and server knowledge. 
 Without these safeguards, your instance could be vulnerable to attack.
 
+---
 
 ## 1.1 Hardware requirements
 
@@ -92,14 +93,43 @@ docker-compose --version
 ```
 <img src={require("./img/raspberrypi/docker-compose-check.png").default} alt="Check docker-compose" width="500"/>
 
-## 1.5 Install Git
 
-### Git installation: TODO: need to be checked if it is nessecary after installing docker and docker-compose
-```sh
-sudo apt install git
+## 1.5 Clone OpenCloud respository
+
+```sh 
+git clone https://github.com/opencloud-eu/opencloud.git
+``` 
+
+
+## 1.6 Start the docker compose setup
+
+```sh 
+docker compose up opencloud traefik
 ```
 
-## 1.6 Mount external hard disk or USB-Stick
+
+
+## 1.7 Change the deployment
+
+Go to the deployment folder and open the `.env` file with e.g. nano 
+
+```sh 
+cd opencloud/deployments/examples/opencloud_full
+``` 
+```sh 
+nano .env
+```
+
+When you added an external hard disk or USB-Stick for the storage, you need to enable the `OC_DATA_DIR` variable and change the path to your storage
+
+<img src={require("./img/raspberrypi/change-env-for-storage.png").default} alt="Check docker-compose" width="500"/>
+
+
+Here it is `/mnt/data`
+
+You can also enable the `DEMO_USERS` when you set them to `true` or can change the `ADMIN_PASSWORD`
+
+## 1.5 Mount external hard disk or USB-Stick (optional)
 
 - Find your external hard disk or USB-Stick
 
@@ -129,16 +159,16 @@ sudo mkfs.ext4 /dev/sda1 -L DATA
   - add following line in the fstab file
 
 ```sh 
-LABEL=DATA /srv/data ext4 auto,defaults 0 0
+LABEL=DATA /mnt/data ext4 auto,defaults 0 0
 ```
 
-  - create the `/srv/data` directory and give standard user access
+  - create the `/mnt/data` directory and give the user 1000 access
 
 ```sh 
-sudo mkdir -p /srv/data
+sudo mkdir -p /mnt/data
 ```
 ```sh 
-chown -R pi:pi /srv/data
+sudo chown -R 1000:1000 /mnt/data
 ```
 
   - mount the drive automatically 
@@ -157,14 +187,12 @@ systemctl daemon-reload
 ``` 
 and try to mount again.
 
-## 1.7 Create Docker volume
-
-```sh 
-docker volume create --driver local --opt type=none --opt device=/srv/data --opt o=bind opencloud-data
-```
-
-## 1.8 Clone OpenCloud respository
-
-```sh 
-git clone https://github.com/opencloud-eu/opencloud.git
-``` 
+192.168.2.52 opencloud.opencloud.test
+192.168.2.52 traefik.opencloud.test
+192.168.2.52 collabora.opencloud.test
+192.168.2.52 onlyoffice.opencloud.test
+192.168.2.52 wopiserver.opencloud.test
+192.168.2.52 mail.opencloud.test
+192.168.2.52 companion.opencloud.test
+192.168.2.52 minio.opencloud.test
+192.168.2.52 cloud.opencloud.test
