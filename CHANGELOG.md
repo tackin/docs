@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.0](https://github.com/opencloud-eu/docs/releases/tag/1.0.0) - 2025-02-28
+
+### ❤️ Thanks to all contributors! ❤️
+
+@tbsbdr
+
+### 💥 Breaking changes
+
+- Preset for Navigation Structure [[#117](https://github.com/opencloud-eu/docs/pull/117)]
+
 ## [0.1.1](https://github.com/opencloud-eu/docs/releases/tag/0.1.1) - 2025-02-28
 
 ### ❤️ Thanks to all contributors! ❤️
