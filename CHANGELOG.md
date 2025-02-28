@@ -4,7 +4,7 @@
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@tbsbdr
+@openclouders, @tbsbdr
 
 ### 💥 Breaking changes
 
