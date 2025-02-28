@@ -1,15 +1,10 @@
 ---
 sidebar_position: 2
-id: releasenotes
-title: Whats new?
+id: features
+title: Features
+draft: false
 ---
-# 2025 February 25
 
-**Releasenotes OpenCloud 1.0.0**
-
-Say hello to OpenCloud 1.0.0! A fresh take on secure file sharing & collaboration! Built as a fork of ocis, OpenCloud is all about doing things right. No unnecessary fluff, no distractions—just rock-solid data management, great user experience, secure and convenient administration and an awesome service by our support team.
-
-We believe in keeping things simple but powerful.
 
 ## **🚀 Key Features at a Glance**
 

@@ -1,21 +1,22 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 id: docker
-title: Quickstart with docker
+title: Docker
+description: "Classic docker setup."
 ---
 
 # Docker
-<br/><br/>
+
 
 ## Spin up a temporary local instance of OpenCloud using **Docker**.
-<br/><br/>
+
 
 ---
 
 ### **Prerequisites:**
 - **Linux**, **Mac** or **Windows** Subsystem for Linux [(WSL)](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [**Docker**](https://docs.docker.com/compose/install/)
-<br/><br/>
+
 
 ---
 
@@ -25,7 +26,7 @@ title: Quickstart with docker
 mkdir -p $HOME/opencloud/opencloud-config
 mkdir -p $HOME/opencloud/opencloud-data
 ```
-<br/><br/>
+
 
 ---
 
@@ -34,7 +35,7 @@ mkdir -p $HOME/opencloud/opencloud-data
 ```Shell
 docker pull opencloudeu/opencloud-rolling:latest
 ```
-<br/><br/>
+
 
 ---
 
@@ -51,7 +52,7 @@ docker run --rm -it \
 You can set your own password using `IDM_ADMIN_PASSWORD=your_password`. If not set, a password will be auto-generated
 
 <img src={require("./img/quick-guide/docker-opencloud-init.png").default} alt="Admin general" width="1920"/>
-<br/><br/>
+
 
 ---
 
@@ -70,7 +71,7 @@ docker run \
     -e OC_URL=https://localhost:9200 \
     opencloudeu/opencloud-rolling:latest
 ```
-<br/><br/>
+
 
 ---
 
@@ -82,14 +83,14 @@ Login with your browser:
 - password: **admin**
 
 <img src={require("./img/quick-guide/quick-login.png").default} alt="Admin general" width="1920"/>
-<br/><br/>
+
 
 ---
 
 ### 6. Conclusion
 
 Your OpenCloud server is now running and ready to use 🚀
-<br/><br/>
+
 
 --- 
 
@@ -97,4 +98,4 @@ Your OpenCloud server is now running and ready to use 🚀
 
 If you encounter any issues or errors, try finding a solution here: 
 
-- [Common Issues & Help](./../common-issues.md)
+- [Common Issues & Help](./../50-resources/30-common-issues.md)
