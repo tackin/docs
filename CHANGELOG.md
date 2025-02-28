@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.1](https://github.com/opencloud-eu/docs/releases/tag/0.1.1) - 2025-02-28
+
+### ❤️ Thanks to all contributors! ❤️
+
+@AlexAndBear, @ScharfViktor
+
+### 🐛 Bug Fixes
+
+- Adjust social card description [[#119](https://github.com/opencloud-eu/docs/pull/119)]
+- Fix docker images names [[#115](https://github.com/opencloud-eu/docs/pull/115)]
+
 ## [0.1.0](https://github.com/opencloud-eu/docs/releases/tag/0.1.0) - 2025-02-28
 
 ### ❤️ Thanks to all contributors! ❤️
