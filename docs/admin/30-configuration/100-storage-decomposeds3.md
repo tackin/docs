@@ -1,7 +1,8 @@
 ---
-sidebar_position: 1
-id: decomposeds3
-title: Decomposeds3
+sidebar_position: 10
+id: storage-decomposeds3
+title: "Storage: Decomposeds3"
+draft: false
 ---
 
 # Decomposeds3 Storage Driver
@@ -77,4 +78,4 @@ Login with your browser:
 
 If you encounter any issues or errors, try finding a solution here: 
 
-- [Common Issues & Help](./../common-issues.md)
+- [Common Issues & Help](./../50-resources/30-common-issues.md)

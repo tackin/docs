@@ -1,14 +1,14 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 id: bare-metal
-title: Quickstart Bare - Metal
+title: Bare-Metal
 ---
-<br/><br/>
+
 
 ## User Guide for Installing OpenCloud
 Follow the steps below to install and configure OpenCloud on your system.<br/>
 This example is on Linux Ubuntu distribution!
-<br/><br/>
+
 
 ---
 
@@ -27,7 +27,7 @@ This example is on Linux Ubuntu distribution!
    ```bash
    git clone https://github.com/opencloud-eu/opencloud.git
    ```
-<br/><br/>
+
 
 ---
 
@@ -52,7 +52,7 @@ This example is on Linux Ubuntu distribution!
    ```bash
    corepack enable pnpm
    ```
-<br/><br/>
+
 
 ---
 
@@ -82,7 +82,7 @@ This example is on Linux Ubuntu distribution!
    ```bash
    ./bin/opencloud server
    ```
-<br/><br/>
+
 
 ---
 
@@ -94,16 +94,16 @@ Login with your browser:
 - password: **admin**
 
 <img src={require("./img/bare-metal/login.png").default} alt="Admin general" width="1920"/>
-<br/><br/>
+
 
 --- 
 
 ### 5. Conclusion
 
 Your OpenCloud server is now running and ready to use 🚀
-<br/><br/>
+
 
 ---
 
 ### If you encounter any issues or errors, try finding a solution here: 
-- [Common Issues & Help](./../common-issues.md)
+- [Common Issues & Help](./../50-resources/30-common-issues.md)
