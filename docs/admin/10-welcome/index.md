@@ -10,14 +10,14 @@ Welcome to **OpenCloud**, your self-hosted file sharing platform: Secure, simple
 
 ## Quick start
 ```bash
-curl -L https://opencloud.eu/quickoc.sh | /bin/bash
+curl -L https://raw.githubusercontent.com/dragotin/thisnthat/refs/heads/master/scripts/quickoc.sh | /bin/bash
 ```
 
 
 ## What’s Inside?  
 1. **Getting Started** – Set up and deploy OpenCloud  
-2. **Configuration** – Customize and integrate with existing systems and storage
-3. **Maintenance** – Learn how to update, backup and migrate
+2. **Configuration** – Customize and integrate with existing systems and storage `coming soon`
+3. **Maintenance** – Learn how to update, backup and migrate `coming soon`
 
 ## Need Help?  
-Check our **FAQs, community forums, or contact support**. Let’s get started! 🚀  
+Check our **FAQs `coming soon`, [Github Discussion](https://github.com/orgs/opencloud-eu/discussions), or [Matrix Channel](https://matrix.to/#/#opencloud:matrix.org)**. Let’s get started! 🚀  

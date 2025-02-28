@@ -2,6 +2,7 @@
 sidebar_position: 2
 id: docker-compose
 title: Docker Compose
+description: "🌟 Full-blown featureset including web office and full-text search."
 ---
 
 # Docker Compose
