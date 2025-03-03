@@ -104,30 +104,18 @@ git clone https://github.com/opencloud-eu/opencloud.git
 ## 1.6 Start the docker compose setup
 
 ```sh 
-docker compose up opencloud traefik
-```
-
-
-
-## 1.7 Change the deployment
-
-Go to the deployment folder and open the `.env` file with e.g. nano 
-
-```sh 
 cd opencloud/deployments/examples/opencloud_full
-``` 
-```sh 
-nano .env
 ```
 
-When you added an external hard disk or USB-Stick for the storage, you need to enable the `OC_DATA_DIR` variable and change the path to your storage
+```sh 
+docker compose up 
+```
 
-<img src={require("./img/raspberrypi/change-env-for-storage.png").default} alt="Check docker-compose" width="500"/>
+
+Now you have running OpenCloud locally on your RaspberryPi and you can adjust it to your needs.
+We will describe how you can mount an external disk or USB-Stick and make your OpenCloud available from outside with noip
 
 
-Here it is `/mnt/data`
-
-You can also enable the `DEMO_USERS` when you set them to `true` or can change the `ADMIN_PASSWORD`
 
 ## 1.5 Mount external hard disk or USB-Stick (optional)
 
@@ -187,12 +175,28 @@ systemctl daemon-reload
 ``` 
 and try to mount again.
 
-192.168.2.52 opencloud.opencloud.test
-192.168.2.52 traefik.opencloud.test
-192.168.2.52 collabora.opencloud.test
-192.168.2.52 onlyoffice.opencloud.test
-192.168.2.52 wopiserver.opencloud.test
-192.168.2.52 mail.opencloud.test
-192.168.2.52 companion.opencloud.test
-192.168.2.52 minio.opencloud.test
-192.168.2.52 cloud.opencloud.test
+## 1.7 Mount external storage
+
+Stop the running docker
+
+```sh 
+docker compose down
+``` 
+
+Go to the deployment folder and open the `.env` file with e.g. nano 
+
+```sh 
+cd opencloud/deployments/examples/opencloud_full
+``` 
+```sh 
+nano .env
+```
+
+When you added an external hard disk or USB-Stick for the storage, you need to enable the `OC_DATA_DIR` variable and change the path to your storage
+
+<img src={require("./img/raspberrypi/change-env-for-storage.png").default} alt="Check docker-compose" width="500"/>
+
+
+Here it is `/mnt/data`
+
+You can also enable the `DEMO_USERS` when you set them to `true` or can change the `ADMIN_PASSWORD`
