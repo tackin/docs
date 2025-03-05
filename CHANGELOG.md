@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.1.0](https://github.com/opencloud-eu/docs/releases/tag/1.1.0) - 2025-03-05
+
+### ❤️ Thanks to all contributors! ❤️
+
+@AlexAndBear, @Heiko-Pohl, @LisaHue, @Svanvith, @tbsbdr
+
+### 👷 Admin Documentation
+
+- Add pictures and the text for installation on Raspberry Pi [[#132](https://github.com/opencloud-eu/docs/pull/132)]
+- add short-url [[#138](https://github.com/opencloud-eu/docs/pull/138)]
+- Add part about collabora certificate [[#133](https://github.com/opencloud-eu/docs/pull/133)]
+- Update bare metal documentation with english screenshots [[#130](https://github.com/opencloud-eu/docs/pull/130)]
+
+### 👤 User Documentation
+
+- Adjust English for files and folders & small fixes [[#134](https://github.com/opencloud-eu/docs/pull/134)]
+- Update desktop [[#126](https://github.com/opencloud-eu/docs/pull/126)]
+
+### 📦️ Build&Tools
+
+- Add syntax hilighting for bash [[#140](https://github.com/opencloud-eu/docs/pull/140)]
+
 ## [1.0.2](https://github.com/opencloud-eu/docs/releases/tag/1.0.2) - 2025-03-03
 
 ### ❤️ Thanks to all contributors! ❤️
