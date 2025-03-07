@@ -17,10 +17,9 @@ This example is on Linux Ubuntu 24.04 distribution!
 
 - Update your package list:
    ```bash
-   sudo apt update && upgrade
+   sudo apt update && apt upgrade
    ```
-   <img src={require("./img/bare-metal/apt-update-&&-upgrade.png").default} alt="sudo apt" width="1920"/>
-
+   
 - Install Git using the following command:
    ```bash
    sudo apt install git
