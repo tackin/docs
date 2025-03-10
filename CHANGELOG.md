@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.3.0](https://github.com/opencloud-eu/docs/releases/tag/1.3.0) - 2025-03-10
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @ScharfViktor, @kulmann
+
+### 👷 Admin Documentation
+
+- add upgrade guide [[#154](https://github.com/opencloud-eu/docs/pull/154)]
+- Backup Tutorial [[#148](https://github.com/opencloud-eu/docs/pull/148)]
+- delete screenshot in bare metal documentation [[#149](https://github.com/opencloud-eu/docs/pull/149)]
+
+### 🐛 Bug Fixes
+
+- Fix typo on index.md [[#153](https://github.com/opencloud-eu/docs/pull/153)]
+
 ## [1.2.0](https://github.com/opencloud-eu/docs/releases/tag/1.2.0) - 2025-03-07
 
 ### ❤️ Thanks to all contributors! ❤️
