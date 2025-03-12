@@ -6,7 +6,7 @@ draft: false
 ---
 
 
-## **🚀 Key Features at a Glance**
+## **🚀 Key features at a glance**
 
 - **Seamless File Synchronization**: Access your files across all devices.
 - **Secure & Flexible File Sharing**: Share files with granular roles, expiration dates, and password protection.
