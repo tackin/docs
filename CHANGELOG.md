@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.4.0](https://github.com/opencloud-eu/docs/releases/tag/1.4.0) - 2025-03-13
+
+### ❤️ Thanks to all contributors! ❤️
+
+@tbsbdr
+
+### 👷 Admin Documentation
+
+- Add note that bare metal is exclusively community supported [[#156](https://github.com/opencloud-eu/docs/pull/156)]
+
 ## [1.3.0](https://github.com/opencloud-eu/docs/releases/tag/1.3.0) - 2025-03-10
 
 ### ❤️ Thanks to all contributors! ❤️
