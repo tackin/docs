@@ -9,6 +9,12 @@ description: "Manual, minimalist setup with essential features."
 Follow the steps below to install and configure OpenCloud on your system.<br/>
 This example is on Linux Ubuntu 24.04 distribution!
 
+:::note
+
+OpenCloud can run as a single binary. However, integrating additional services like Collabora, Apache Tika for search, or antivirus is not documented. This deployment is recommended only for experienced users who require minimal file management features. Support is available exclusively from the community.
+
+:::
+
 ---
 
 ### 1. Install Git and clone the repository
