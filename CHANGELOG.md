@@ -1,14 +1,18 @@
 # Changelog
 
-## [1.4.0](https://github.com/opencloud-eu/docs/releases/tag/1.4.0) - 2025-03-13
+## [1.4.0](https://github.com/opencloud-eu/docs/releases/tag/1.4.0) - 2025-03-14
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@tbsbdr
+@Tronde, @tbsbdr
 
 ### 👷 Admin Documentation
 
 - Add note that bare metal is exclusively community supported [[#156](https://github.com/opencloud-eu/docs/pull/156)]
+
+### 🐛 Bug Fixes
+
+- Start OpenCloud in detached instead of interactive mode [[#162](https://github.com/opencloud-eu/docs/pull/162)]
 
 ## [1.3.0](https://github.com/opencloud-eu/docs/releases/tag/1.3.0) - 2025-03-10
 
