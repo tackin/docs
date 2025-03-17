@@ -1,10 +1,10 @@
 # Changelog
 
-## [1.4.0](https://github.com/opencloud-eu/docs/releases/tag/1.4.0) - 2025-03-14
+## [1.4.0](https://github.com/opencloud-eu/docs/releases/tag/1.4.0) - 2025-03-17
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@Tronde, @tbsbdr
+@Tronde, @openclouders, @tbsbdr
 
 ### 👷 Admin Documentation
 
