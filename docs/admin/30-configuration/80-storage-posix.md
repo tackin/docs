@@ -59,7 +59,7 @@ The collaborative PosixFS storage driver is part of the default OpenCloud bundle
 
 Involved configuration settings (environment variables) to enable PosixFS are:
 
-- `STORAGE_USERS_DRIVER` needs to be set to `posix`
+- `STORAGE_USERS_DRIVER` defaults to posix `posix` from version `2.0.0` before it needs to be explicitely set
 - `STORAGE_USERS_ID_CACHE_STORE` needs to be set to `nats-js-kv`
 - `STORAGE_USERS_POSIX_ROOT` can be omitted for default, or set the storage root directory
 
