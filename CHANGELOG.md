@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.9.0](https://github.com/opencloud-eu/docs/releases/tag/1.9.0) - 2025-03-31
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @JammingBen, @Svanvith, @dragonchaser, @dragotin, @tbsbdr
+
+### 👷 Admin Documentation
+
+- made CephFS and GPFS available [[#180](https://github.com/opencloud-eu/docs/pull/180)]
+- Docker compose public availability [[#190](https://github.com/opencloud-eu/docs/pull/190)]
+- Add version hint for NFS [[#191](https://github.com/opencloud-eu/docs/pull/191)]
+- Update 80-storage-posix.md [[#188](https://github.com/opencloud-eu/docs/pull/188)]
+
+### 👤 User Documentation
+
+- Update screenshots for user admin settings [[#193](https://github.com/opencloud-eu/docs/pull/193)]
+- fix formatting the note [[#197](https://github.com/opencloud-eu/docs/pull/197)]
+- Remove logo upload [[#189](https://github.com/opencloud-eu/docs/pull/189)]
+
 ## [1.8.0](https://github.com/opencloud-eu/docs/releases/tag/1.8.0) - 2025-03-26
 
 ### ❤️ Thanks to all contributors! ❤️
