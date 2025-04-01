@@ -10,17 +10,14 @@ draft: true
 
 ---
 
-## Maximum download archive size?
+<details>
+<summary>Maximum download archive size?</summary>
 
-**Problem:**<br/>
 When trying to download a folder bigger than 1.1GB, Opencloud gives a notice "Selection bigger than maximum archive size of 1.1GB".
-<br/>
-**Answer:**<br/>
+
 This issue will be fixed in release 2.2.0.
 
----
-
-
+</details>
 
 <details>
 <summary>Wrong text wit auto-translation in Browser</summary>
