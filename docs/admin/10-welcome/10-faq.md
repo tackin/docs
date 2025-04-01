@@ -20,13 +20,15 @@ This issue will be fixed in release 2.2.0.
 
 ---
 
-## Wrong text wit auto-translation in Browser
 
-**Problem:**<br/>
+
+<details>
+<summary>Wrong text wit auto-translation in Browser</summary>
+
 Strange terms and words are displayed in OpenCloud-Web for example "Butterblume".
-<br/>
-**Answer:**<br/>
+
 The problem is due to the auto-translation of the respective browser. As soon as this is activated, everything is translated, including program and application names, such as "Buttercup" turning into "Butterblume". Therefore, we recommend to deactivate the automatic translation of the browser.
 
----
+</details>
 
+​
