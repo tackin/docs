@@ -126,13 +126,13 @@ Same should appear with the other domains you are using.
 
 Example with Chrome browser:
 
-<img src={require("./img/docker-compose/certificate-details.png").default} alt="Certificate Details" width="500"/>
+<img src={require("./../img/docker-compose/certificate-details.png").default} alt="Certificate Details" width="500"/>
 
 
 ✅ Check the certificate details to confirm it’s from Let's Encrypt Staging. 
 
-<img src={require("./img/docker-compose/certificate-viewer.png").default} alt="Certificate Details" width="500"/>
-<img src={require("./img/docker-compose/subordinate-ca's.png").default} alt="Certificate Details" width="500"/>
+<img src={require("./../img/docker-compose/certificate-viewer.png").default} alt="Certificate Details" width="500"/>
+<img src={require("./../img/docker-compose/subordinate-ca's.png").default} alt="Certificate Details" width="500"/>
 
 ## 7. Apply a Real SSL Certificate
 Once the staging certificate works, switch to a production certificate.
@@ -167,7 +167,7 @@ docker compose up -d
 
 ✅ Now, visiting `https://cloud.YOUR.DOMAIN` should show a secure connection with a valid SSL certificate.
 
-<img src={require("./img/docker-compose/status-secure.png").default} alt="Certificate Details" width="1920"/>
+<img src={require("./../img/docker-compose/status-secure.png").default} alt="Certificate Details" width="1920"/>
 
 ## 8. Log into OpenCloud
 Open a browser and visit:
@@ -182,10 +182,10 @@ Login with:
 
 **Password:** (your password)
 
-<img src={require("./img/docker-compose/login.png").default} alt="Admin general" width="1920"/>
+<img src={require("./../img/docker-compose/login.png").default} alt="Admin general" width="1920"/>
 
 ## Troubleshooting
-If you encounter any issues, check the [Common Issues & Help Guide](./../50-resources/30-common-issues.md)
+If you encounter any issues, check the [Common Issues & Help](./../../50-resources/30-common-issues.md)
 
 ---
 

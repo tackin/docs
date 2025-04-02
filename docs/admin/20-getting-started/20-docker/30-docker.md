@@ -51,7 +51,7 @@ docker run --rm -it \
 
 You can set your own password using `IDM_ADMIN_PASSWORD=your_password`. If not set, a password will be auto-generated
 
-<img src={require("./img/quick-guide/docker-opencloud-init.png").default} alt="Admin general" width="1920"/>
+<img src={require("./../img/quick-guide/docker-opencloud-init.png").default} alt="Admin general" width="1920"/>
 
 
 ---
@@ -82,7 +82,7 @@ Login with your browser:
 - user: **admin**
 - password: **admin**
 
-<img src={require("./img/quick-guide/quick-login.png").default} alt="Admin general" width="1920"/>
+<img src={require("./../img/quick-guide/quick-login.png").default} alt="Admin general" width="1920"/>
 
 
 ---
@@ -98,4 +98,4 @@ Your OpenCloud server is now running and ready to use 🚀
 
 If you encounter any issues or errors, try finding a solution here: 
 
-- [Common Issues & Help](./../50-resources/30-common-issues.md)
+- [Common Issues & Help](./../../50-resources/30-common-issues.md)
