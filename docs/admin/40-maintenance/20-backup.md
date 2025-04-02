@@ -2,7 +2,6 @@
 sidebar_position: 2
 id: backup
 title: "Backup"
-draft: true
 ---
 
 ## Regular backups are essential to ensure that your OpenCloud instance can be restored in case of issues.
