@@ -14,12 +14,14 @@ title: "Traefik-Dashboard"
 
 The Traefik-Dashboard must be activated in the .env file.
 
+Open the .env with an editor e.g. nano
+
 ```bash
 nano .env
 ```
 <br/>
 
-In the .env file must be commited in the following line and set it to true to enable the dashboard and set a domain:
+In the .env file the following lines must be enabled, set to true and set the domain:
 
 ```Shell
 TRAEFIK_DASHBOARD=true
@@ -74,7 +76,7 @@ After saving the new entries in the .env-file you must be restart docker.
 
 ### ✅ Traefik-Dashboard in Browser
 
-- Open a browser and enter your traffic domain there.<br/>
+- Open a browser and enter your traffic domain.<br/>
 - Then enter your username and password (the password must be entered in plain text for registration).
 - After this the Traefik-Dashboard opens.
 
