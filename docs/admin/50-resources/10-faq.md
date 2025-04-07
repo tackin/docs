@@ -89,7 +89,7 @@ No restrictions. You can store and share any filetype. If neccessary, you can re
 </details>
 
 <details>
-<summary>Is there a upload file size limit in OpenCloud?</summary>
+<summary>Is there an upload file size limit in OpenCloud?</summary>
 
 Nope.
 
