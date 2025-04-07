@@ -84,7 +84,7 @@ Yes, of course!
 <details>
 <summary>What types of files can I store and share with OpenCloud?</summary>
 
-No restrictions. You can store and share any filetype. If neccessary, you can restrict the upload of certain filetypes like .exe or documents with makros like xlsm.
+No restrictions. You can store and share any filetype. If necessary, you can restrict the upload of certain filetypes like .exe or documents with macros like xlsm.
 
 </details>
 
