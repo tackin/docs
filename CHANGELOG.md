@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.12.0](https://github.com/opencloud-eu/docs/releases/tag/1.12.0) - 2025-04-09
+
+### ❤️ Thanks to all contributors! ❤️
+
+@AlexAndBear
+
+### :octocat: Developer Documentation
+
+- Add dev docs [[#217](https://github.com/opencloud-eu/docs/pull/217)]
+
 ## [1.11.0](https://github.com/opencloud-eu/docs/releases/tag/1.11.0) - 2025-04-07
 
 ### ❤️ Thanks to all contributors! ❤️
