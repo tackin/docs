@@ -11,27 +11,27 @@ title: External OpenID Connect Identity Provider
 The following environment variables are relevant when connecting OpenCloud to an external IDP
 
 - `OC_OIDC_ISSUER`: Set this to the issuer URL of the external Identity Provider
-- `OC_EXCLUDE_RUN_SERVICES`: To disable the builtin Identity Provider set this to `idp`
+- `OC_EXCLUDE_RUN_SERVICES`: To disable the built-in Identity Provider set this to `idp`
 - `PROXY_OIDC_REWRITE_WELLKNOWN`: Set this to `true` to expose the Identity
   Providers `.well-known/openid-configuration` via the OpenCloud base url. This
   help the oidc client, that do not yet support discovery via webfinger to
   locate the Identity Provider's configuration.
 - `PROXY_USER_OIDC_CLAIM` and `PROXY_USER_CS3_CLAIM`: These two variables
-  configure now the users mapped between the Identity Provider and OpenCloud.
+  configure how the users mapped between the Identity Provider and OpenCloud.
   `PROXY_USER_OIDC_CLAIM` defines the OIDC claim that OpenCloud uses to
   uniquely identify a user. It is matched against the OpenCloud user attribute
   defined in `PROXY_USER_CS3_CLAIM`. E.g. if `PROXY_USER_OIDC_CLAIM` is set to
-  `preferred_username` and `PROXY_USER_CS3_CLAIM` is set to `username` and
+  `preferred_username` and `PROXY_USER_CS3_CLAIM` is set to `username` then an
   OpenID Connect user, that has the `preferred_username` set to `alan` will map
   to the OpenCloud user with username `alan`.
 - `PROXY_AUTOPROVISION_ACCOUNTS` and `GRAPH_USERNAME_MATCH`: When
   `PROXY_AUTOPROVISION_ACCOUNTS` is set to `true`, OpenCloud will create a new
   user account in the LDAP Database for every user who logs in via OpenID
   Connect for the first time. Enabling this requires access to a writable LDAP
-  server. For smaller setups this can be the builtin LDAP server provided by
+  server. For smaller setups this can be the built-in LDAP server provided by
   the `idm` service. If set to `false` all users logging in must already be
   existing in the LDAP server. (The mapping between the OIDC and LDAP users
-  happens base on the aforementioned `PROXY_USER_OIDC_CLAIM` and
+  happens based on the aforementioned `PROXY_USER_OIDC_CLAIM` and
   `PROXY_USER_CS3_CLAIM` settings. Set `GRAPH_USERNAME_MATCH` to `none` when
   `PROXY_AUTOPROVISION_ACCOUNTS` is set to `true` to disable OpenCloud's
   default restrictions on allowed characters in usernames.
@@ -40,14 +40,14 @@ The following environment variables are relevant when connecting OpenCloud to an
 
 ### Automatic Role Assignments
 
-When users login into OpenCloud, they do get a user role assigned
+When users login into OpenCloud, they get a user role assigned
 automatically. The automatic role assignment can be configured in different
 ways. The `PROXY_ROLE_ASSIGNMENT_DRIVER` environment variable (or the `driver`
-setting in the `role_assignment` section of the configuration file select which
+setting in the `role_assignment` section of the configuration file) select which
 mechanism to use for the automatic role assignment.
 
 When set to `default`, all users which do not have a role assigned at the time
-for the first login will get the role 'user' assigned. (This is also the
+of first login will get the role 'user' assigned. This is also the
 default behavior if `PROXY_ROLE_ASSIGNMENT_DRIVER` is unset.
 
 When `PROXY_ROLE_ASSIGNMENT_DRIVER` is set to `oidc` the role assignment for a
