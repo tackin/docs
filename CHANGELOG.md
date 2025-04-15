@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.16.0](https://github.com/opencloud-eu/docs/releases/tag/1.16.0) - 2025-04-15
+
+### ❤️ Thanks to all contributors! ❤️
+
+@AlexAndBear, @JammingBen, @micbar
+
+### :octocat: Developer Documentation
+
+- Fix wrong Server category in dev docs [[#242](https://github.com/opencloud-eu/docs/pull/242)]
+- Add design system reference to web dev docs [[#239](https://github.com/opencloud-eu/docs/pull/239)]
+
+### 👷 Admin Documentation
+
+- feat: add likec4 [[#240](https://github.com/opencloud-eu/docs/pull/240)]
+
+### 📦️ Build&Tools
+
+- Remove file and folder prefixes e.G 10-server [[#241](https://github.com/opencloud-eu/docs/pull/241)]
+- Add mermaid support  [[#235](https://github.com/opencloud-eu/docs/pull/235)]
+
 ## [1.15.0](https://github.com/opencloud-eu/docs/releases/tag/1.15.0) - 2025-04-14
 
 ### ❤️ Thanks to all contributors! ❤️
