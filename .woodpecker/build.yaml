@@ -2,9 +2,13 @@
 when:
   - event: push
     branch: ${CI_REPO_DEFAULT_BRANCH}
-  - event: [ pull_request, manual, tag]
+  - event: [pull_request, manual, tag]
 
 steps:
+  - name: fetch-design-system-docs
+    image: quay.io/thegeeklab/git-batch
+    commands:
+      - git batch -vv
   - name: build
     image: owncloudci/nodejs:20
     commands:
