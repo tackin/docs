@@ -1,0 +1,3 @@
+# Usage: <RepoUrl>;branch;TargetFolder
+
+https://github.com/opencloud-eu/web;design-system-docs;static/design-system

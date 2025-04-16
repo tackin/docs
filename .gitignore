@@ -5,6 +5,9 @@
 /build
 /static/likec4
 
+# design-system docs
+/static/design-system
+
 # Generated files
 .docusaurus
 .cache-loader
