@@ -65,7 +65,7 @@ unique and consistent look and feel and branding throughout the OpenCloud Web ec
 very own apps and extensions will blend in with all the others. Documentation and code examples can be found in
 the [design system documentation](https://docs.opencloud.eu/design-system/).
 
-The OpenCloud Design System is a standalone project that gets published on npmjs.com as [@opencloud-eu/design-system](https://www.npmjs.com/package/@opencloud-eu/design-system). Since it's bundled with OpenCloud Web, you should not bundle it with your app or extension. However, you can add is as a dev dependency for better IDE support.
+The OpenCloud Design System is a standalone project that gets published on npmjs.com as [@opencloud-eu/design-system](https://www.npmjs.com/package/@opencloud-eu/design-system). Since it's bundled with OpenCloud Web, you should not bundle it with your app or extension. However, you can add it as a dev dependency for better IDE support.
 
 ### web-client
 

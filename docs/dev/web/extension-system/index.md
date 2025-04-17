@@ -27,7 +27,7 @@ Feel free to contribute or just be inspired for your own apps or extensions.
 
 ### Apps
 
-Apps define a `src/index.ts` file which act as an entrypoint. Below is the most basic example of its content:
+Apps define a `src/index.ts` file which acts as an entrypoint. Below is the most basic example of its content:
 
 ```typescript
 import {
