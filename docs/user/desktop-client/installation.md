@@ -4,44 +4,51 @@ id: installation
 title: Installation
 ---
 
-# Installation of the OpenCloud Desktop
+# 🖥️ Install OpenCloud Desktop
 
-:::note
-OpenCloud Desktop is not available yet. We are working on making it available in the near future
-:::
+The OpenCloud Desktop client is available for **Windows**, **macOS**, and **Linux**. Choose your operating system below and follow the installation steps.
 
-To install the OpenCloud Desktop, follow these simple steps:
+---
 
-## Download the Installation File
-- Open your browser and go to *URL coming soon*
-- Choose the correct version for your operating system (Windows, macOS, or Linux)
-- Click **Download** to start the process
+## 🪟 Windows Installation (Microsoft Store)
 
-## Start the Installation
-- Once the download is complete, double-click the installation file to open it
-- The installation assistant will guide you through the process
+1. Open the **Microsoft Store** and search for **OpenCloud Desktop** or click on the image below
+<a href="https://apps.microsoft.com/detail/9pbx43hcmldq?mode=direct">
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+</a>
+2. Click **Install**
+3. Once installed, launch the app from your Start Menu
 
-## Follow the Installation Steps
-1. **Introduction**: Click **"Continue"** to proceed
+> ℹ️ Installing from the Microsoft Store ensures automatic updates and tight system integration.
 
-<!--- <img src={require("./img/installation/installation-welcome.png").default} alt="installation welcome page" width="400"/>--->
+---
 
-2. **Destination Select**: Choose where you want the program to be installed. Click **"Continue"**
+## 🍎 macOS Installation (.pkg file)
 
-<!--- <img src={require("./img/installation/installation-installation-destination.png").default} alt="installation destination" width="400"/>--->
+1. Download the latest or preferred `.pkg` file for macOS from the [GitHub repository](https://github.com/opencloud-eu/desktop/releases)
+2. Double-click the downloaded file to start the installer
+3. Follow the on-screen instructions to complete the installation
+4. After installation, launch **OpenCloud Desktop** from the **Applications** folder or **Launchpad**
 
-3. **Choose Installation Type**: Select the version you want to install. Click **"Install"**
+---
 
-<!--- <img src={require("./img/installation/installation-installation-type.png").default} alt="installation type" width="400"/>--->
+## 🐧 Linux Installation (AppImage)
 
-4. **Installation Progress**: Wait while the software installs
+We recommend using **AppImageLauncher** to manage AppImages conveniently and to ensure proper system integration.
 
-<!--- <img src={require("./img/installation/installation-install-process.png").default} alt="installation process" width="400"/>--->
+### Step 1: Download the AppImage
 
-5. **Completion**: When finished, you’ll see a confirmation message. Click **"Close"**
+Download the latest or wanted `.AppImage` version of OpenCloud Desktop from the [GitHub repository](https://github.com/opencloud-eu/desktop/releases).
 
-<!--- <img src={require("./img/installation/installation-installation-finish.png").default} alt="installation finish" width="400"/>--->
+### Step 2: Install AppImageLauncher
 
-Now, the Desktop Client is successfully installed and ready to use! 
+AppImageLauncher automatically integrates AppImages into your system menu.
 
+👉 Follow the installation instructions here:  
+[AppImageLauncher Installation Guide](https://github.com/TheAssassin/AppImageLauncher#installation)
 
+### Step 3: Launch OpenCloud
+
+- Right-click the downloaded `OpenCloud.AppImage` file and choose `Open with AppImageLauncher`.
+- Confirm when AppImageLauncher prompts you to integrate the app.
+- OpenCloud Desktop will now be available in your application menu like any other app
