@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.22.0](https://github.com/opencloud-eu/docs/releases/tag/1.22.0) - 2025-04-30
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @LisaHue, @micbar, @tbsbdr
+
+### 👷 Admin Documentation
+
+- Add release types [[#258](https://github.com/opencloud-eu/docs/pull/258)]
+- feat: add keycloak LDAP docs [[#256](https://github.com/opencloud-eu/docs/pull/256)]
+- Create FAQ site [[#264](https://github.com/opencloud-eu/docs/pull/264)]
+
+### 👤 User Documentation
+
+- Add iOS German categories [[#263](https://github.com/opencloud-eu/docs/pull/263)]
+
 ## [1.21.0](https://github.com/opencloud-eu/docs/releases/tag/1.21.0) - 2025-04-28
 
 ### ❤️ Thanks to all contributors! ❤️
