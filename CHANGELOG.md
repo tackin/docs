@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.24.0](https://github.com/opencloud-eu/docs/releases/tag/1.24.0) - 2025-05-08
+
+### ❤️ Thanks to all contributors! ❤️
+
+@AlexAndBear, @LisaHue, @Svanvith
+
+### 👷 Admin Documentation
+
+- Fix import of asset files [[#283](https://github.com/opencloud-eu/docs/pull/283)]
+- added configvars in admin a-c [[#273](https://github.com/opencloud-eu/docs/pull/273)]
+
+### 👤 User Documentation
+
+- added the settings translation for the iOS app [[#281](https://github.com/opencloud-eu/docs/pull/281)]
+- Add ios download available offline [[#280](https://github.com/opencloud-eu/docs/pull/280)]
+- Add ios create move rename [[#277](https://github.com/opencloud-eu/docs/pull/277)]
+
 ## [1.23.0](https://github.com/opencloud-eu/docs/releases/tag/1.23.0) - 2025-05-07
 
 ### ❤️ Thanks to all contributors! ❤️
