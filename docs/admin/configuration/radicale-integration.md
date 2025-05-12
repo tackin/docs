@@ -6,19 +6,21 @@ description: "How to enable Calendar and Contacts integration via Radicale in Op
 ---
 
 OpenCloud is able to act as an authenticating reverse proxy for the open-source
-CalDAV and CardDAV Server [Radicale](https://radicale.org).
+CalDAV and CardDAV Server [Radicale](https://radicale.org). With that, users
+get a calender- and contacts server out of the box with OpenCloud that can be
+used with a wide selection of desktop- and mobile clients without hassle.
 
 The `opencloud_full` deployment example already contains all the required pieces to
 setup the integration. This guide explains the required steps to achieve that.
 
-# Disclaimer
 
-⚠️ Please note ⚠️
-
+:::note
 The calendar and contacts feature is - until further notice - intended for
 non-customers, i.e. please note that it is not covered under our business
 license, and we do not provide professional support for it. This means that
 this feature is maintained and supported on best effort without warranty.
+:::
+
 
 ## Setting up Calendar and Contacts Integration with Radicale
 
@@ -60,9 +62,9 @@ As very few clients currently support authentication via OpenID Connect you can 
 the "App Token" feature in the user's settings page to generate an application specific
 password that can be used for authentication in most existing CalDAV/CardDAV clients.
 
-Many clients support the automatic discovery of existing Calendars and
-Addressbooks via the so-called `.well-known` endpoints. In that case the only
-thing that is needed for the client to work is to set
-`https://<your.opencloud.domain>` as the target URL for calendars and
+As OpenCloud implements support for the `.well-known/carddav` and `.well-known/caldav`
+endpoint. Many clients are able to automatically discover existing Calendars and
+Addressbooks. So the only thing that is needed for those clients to work is
+to set `https://<your.opencloud.domain>` as the target URL for calendars and
 addressbooks together with the OpenCloud username as the username and the
 generated app token as the password for authentication.
