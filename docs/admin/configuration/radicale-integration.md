@@ -50,11 +50,11 @@ to automatically forward all authenticated traffic on
 `https://<your.opencloud.admin>/carddav` to the radicale container adding
 information about the authenticated users.
 
-Radicale is configured to automatically create default calendar and addressbook for every authenticated user.
+Radicale is configured to automatically create default calendar and address book for every authenticated user.
 
-## Accessing the Calendar and Addressbook
+## Accessing the Calendar and Address Book
 
-Users should now be able to access their Addressbook and Calendar with any
+Users should now be able to access their address book and calendar with any
 capable CalDAV/CardDAV software (OpenCloud does currently not provide any UI
 to access them).
 
@@ -63,8 +63,8 @@ the "App Token" feature in the user's settings page to generate an application s
 password that can be used for authentication in most existing CalDAV/CardDAV clients.
 
 As OpenCloud implements support for the `.well-known/carddav` and `.well-known/caldav`
-endpoint. Many clients are able to automatically discover existing Calendars and
-Addressbooks. So the only thing that is needed for those clients to work is
+endpoint. Many clients are able to automatically discover existing calendars and
+address books. So the only thing that is needed for those clients to work is
 to set `https://<your.opencloud.domain>` as the target URL for calendars and
-addressbooks together with the OpenCloud username as the username and the
+address books together with the OpenCloud username as the username and the
 generated app token as the password for authentication.
