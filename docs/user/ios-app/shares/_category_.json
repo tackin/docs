@@ -1,0 +1,9 @@
+{
+  "label": "Share Files and Folders",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tutorials about sharing files and folders with the OpenCloud iOS App.",
+    "slug": "user/ios-app/sharing"
+  }
+}
