@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.27.0](https://github.com/opencloud-eu/docs/releases/tag/1.27.0) - 2025-05-20
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @LisaHue, @ScharfViktor, @Svanvith
+
+### 👷 Admin Documentation
+
+- publish 2.3.0 release in the docs [[#310](https://github.com/opencloud-eu/docs/pull/310)]
+
+### 👤 User Documentation
+
+- Add webdav [[#309](https://github.com/opencloud-eu/docs/pull/309)]
+- fix typo [[#308](https://github.com/opencloud-eu/docs/pull/308)]
+- Add app tokens [[#307](https://github.com/opencloud-eu/docs/pull/307)]
+- translate search and shortcuts to english [[#306](https://github.com/opencloud-eu/docs/pull/306)]
+- german translation overview tutorials [[#305](https://github.com/opencloud-eu/docs/pull/305)]
+- Add ios overview [[#304](https://github.com/opencloud-eu/docs/pull/304)]
+- Translate shares from german to english [[#301](https://github.com/opencloud-eu/docs/pull/301)]
+- Add ios overview [[#298](https://github.com/opencloud-eu/docs/pull/298)]
+
 ## [1.26.0](https://github.com/opencloud-eu/docs/releases/tag/1.26.0) - 2025-05-15
 
 ### ❤️ Thanks to all contributors! ❤️
