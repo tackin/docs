@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.29.0](https://github.com/opencloud-eu/docs/releases/tag/1.29.0) - 2025-05-26
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @Svanvith
+
+### :octocat: Developer Documentation
+
+- add info and adjust sidebar postition [[#319](https://github.com/opencloud-eu/docs/pull/319)]
+- Move env to dev part2 [[#318](https://github.com/opencloud-eu/docs/pull/318)]
+- Move env to dev [[#317](https://github.com/opencloud-eu/docs/pull/317)]
+
+### 👤 User Documentation
+
+- ios app spaces tutorials in english and german [[#320](https://github.com/opencloud-eu/docs/pull/320)]
+- fix typos [[#315](https://github.com/opencloud-eu/docs/pull/315)]
+
 ## [1.28.0](https://github.com/opencloud-eu/docs/releases/tag/1.28.0) - 2025-05-20
 
 ### ❤️ Thanks to all contributors! ❤️
