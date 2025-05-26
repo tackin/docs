@@ -20,7 +20,8 @@ The ocdav service provides the WebDAV API which is required by OpenCloud clients
 * [Example Yaml Config](./ocdav-envvars)
 
 ## Example Yaml Config
-&#123;&#123;< include file="services/_includes/ocdav-config-example.yaml"  language="yaml" >&#125;&#125;
+```
+{{< include file="services/_includes/ocdav-config-example.yaml"  language="yaml" >}}
 
-&#123;&#123;< include file="services/_includes/ocdav_configvars.md" >&#125;&#125;
+{{< include file="services/_includes/ocdav_configvars.md" >}}
 

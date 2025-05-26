@@ -55,7 +55,8 @@ OpenCloud currently supports no other auth manager
 When using `"ldap"` as auth manager, there is no persistance as requests will just be forwarded to the LDAP server. Therefore, multiple instances of the `auth-basic` service can be started without further configuration. Be aware, that other auth managers might not allow that.
 
 ## Example Yaml Config
-&#123;&#123;< include file="services/_includes/auth-basic-config-example.yaml"  language="yaml" >&#125;&#125;
+```
+{{< include file="services/_includes/auth-basic-config-example.yaml"  language="yaml" >}}
 
-&#123;&#123;< include file="services/_includes/auth-basic_configvars.md" >&#125;&#125;
+{{< include file="services/_includes/auth-basic_configvars.md" >}}
 

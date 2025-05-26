@@ -153,7 +153,8 @@ See [Create share flow](#creating-shares) for the according sequence diagram.
 
 The data backends of the `ocmshareprovider` and `ocmcore` services are configurable. The only supported backend currently is `json` which stores the data in a json file on disk.
 ## Example Yaml Config
-&#123;&#123;< include file="services/_includes/ocm-config-example.yaml"  language="yaml" >&#125;&#125;
+```
+{{< include file="services/_includes/ocm-config-example.yaml"  language="yaml" >}}
 
-&#123;&#123;< include file="services/_includes/ocm_configvars.md" >&#125;&#125;
+{{< include file="services/_includes/ocm_configvars.md" >}}
 

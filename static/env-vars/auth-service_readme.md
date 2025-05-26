@@ -40,7 +40,8 @@ Service accounts are user accounts that are only used for inter service communic
 
 By using the envvars `OC_SERVICE_ACCOUNT_ID` and `OC_SERVICE_ACCOUNT_SECRET`, one can configure the ID and the secret of the service user. The secret can be rotated regulary to increase security. For activating a new secret, all services where the envvars are used need to be restarted. The secret is always and only stored in memory and never written into any persistant store. Though you can use any string for the service account, it is recommmended to use a UUIDv4 string.
 ## Example Yaml Config
-&#123;&#123;< include file="services/_includes/auth-service-config-example.yaml"  language="yaml" >&#125;&#125;
+```
+{{< include file="services/_includes/auth-service-config-example.yaml"  language="yaml" >}}
 
-&#123;&#123;< include file="services/_includes/auth-service_configvars.md" >&#125;&#125;
+{{< include file="services/_includes/auth-service_configvars.md" >}}
 

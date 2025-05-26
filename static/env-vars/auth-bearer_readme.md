@@ -42,7 +42,8 @@ There is no persistance or caching. The proxy caches verified auth bearer tokens
 
 This will change when we use the service registry in more places and use micro clients to select an instance of a service.
 ## Example Yaml Config
-&#123;&#123;< include file="services/_includes/auth-bearer-config-example.yaml"  language="yaml" >&#125;&#125;
+```
+{{< include file="services/_includes/auth-bearer-config-example.yaml"  language="yaml" >}}
 
-&#123;&#123;< include file="services/_includes/auth-bearer_configvars.md" >&#125;&#125;
+{{< include file="services/_includes/auth-bearer_configvars.md" >}}
 
