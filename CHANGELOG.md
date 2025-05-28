@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.31.0](https://github.com/opencloud-eu/docs/releases/tag/1.31.0) - 2025-05-28
+
+### ❤️ Thanks to all contributors! ❤️
+
+@LisaHue, @Svanvith
+
+### 👷 Admin Documentation
+
+- adjust the admin pw change part [[#327](https://github.com/opencloud-eu/docs/pull/327)]
+
+### 👤 User Documentation
+
+- Android draft german. Pictures are still from the iOS app, until the … [[#326](https://github.com/opencloud-eu/docs/pull/326)]
+
 ## [1.30.0](https://github.com/opencloud-eu/docs/releases/tag/1.30.0) - 2025-05-26
 
 ### ❤️ Thanks to all contributors! ❤️
