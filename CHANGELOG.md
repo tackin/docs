@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.33.0](https://github.com/opencloud-eu/docs/releases/tag/1.33.0) - 2025-06-04
+
+### ❤️ Thanks to all contributors! ❤️
+
+@Heiko-Pohl, @Svanvith
+
+### 👷 Admin Documentation
+
+- added that webdav info need to be enabled in the preferences [[#335](https://github.com/opencloud-eu/docs/pull/335)]
+
+### 👤 User Documentation
+
+- Android app tutorials english [[#323](https://github.com/opencloud-eu/docs/pull/323)]
+
 ## [1.32.0](https://github.com/opencloud-eu/docs/releases/tag/1.32.0) - 2025-06-02
 
 ### ❤️ Thanks to all contributors! ❤️
