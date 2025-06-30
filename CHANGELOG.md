@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.36.0](https://github.com/opencloud-eu/docs/releases/tag/1.36.0) - 2025-06-30
+
+### ❤️ Thanks to all contributors! ❤️
+
+@ScharfViktor, @Svanvith, @tbsbdr
+
+### 👷 Admin Documentation
+
+- publish 3.1.0 release in the docs [[#352](https://github.com/opencloud-eu/docs/pull/352)]
+- change /home/chaser to /home/user [[#348](https://github.com/opencloud-eu/docs/pull/348)]
+
 ## [1.35.0](https://github.com/opencloud-eu/docs/releases/tag/1.35.0) - 2025-06-23
 
 ### ❤️ Thanks to all contributors! ❤️
