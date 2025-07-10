@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.38.0](https://github.com/opencloud-eu/docs/releases/tag/1.38.0) - 2025-07-10
+
+### ❤️ Thanks to all contributors! ❤️
+
+@LisaHue, @Svanvith
+
+### 👷 Admin Documentation
+
+- Refine docker-compose local [[#368](https://github.com/opencloud-eu/docs/pull/368)]
+- add instructions to deinstall opencloud [[#367](https://github.com/opencloud-eu/docs/pull/367)]
+
 ## [1.37.0](https://github.com/opencloud-eu/docs/releases/tag/1.37.0) - 2025-07-02
 
 ### ❤️ Thanks to all contributors! ❤️
