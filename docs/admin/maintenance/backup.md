@@ -1,16 +1,16 @@
 ---
 sidebar_position: 2
 id: backup
-title: "Backup"
+title: 'Backup'
 ---
 
-## Regular backups are essential to ensure that your OpenCloud instance can be restored in case of issues.
+## Regular backups are essential to ensure that your OpenCloud instance can be restored in case of issues
 
 ---
 
 ### General considerations
 
-#### OpenCloud supports two different storage setups:
+#### OpenCloud supports two different storage setups
 
 - Pure POSIX Setup: All data (configuration, blobs, and metadata) is stored on a POSIX-compliant filesystem.
 
@@ -22,15 +22,14 @@ To determine which filesystems are supported, see: Filesystems and Shared Storag
 
 ### Backup strategies
 
-#### To create a consistent backup, the OpenCloud instance must be stopped before starting the backup process. After the backup is complete, the instance can be restarted.
+#### To create a consistent backup, the OpenCloud instance must be stopped before starting the backup process. After the backup is complete, the instance can be restarted
 
 **There are two recommended approaches:**
 
 - Snapshot-based backup (recommended)
+  - If your storage system supports snapshots, creating a backup only takes a few seconds
 
-    - If your storage system supports snapshots, creating a backup only takes a few seconds
-
-    - Snapshots should be copied to secondary storage or used by backup software for additional security
+  - Snapshots should be copied to secondary storage or used by backup software for additional security
 
 -Backup software approach
 
@@ -42,7 +41,7 @@ To determine which filesystems are supported, see: Filesystems and Shared Storag
 
 ### Required backup components
 
-#### A complete backup must include:
+#### A complete backup must include
 
 - Configuration data
 
@@ -66,7 +65,7 @@ To determine which filesystems are supported, see: Filesystems and Shared Storag
 
 ### Pure POSIX setup
 
-#### If all data (configuration, blobs, and metadata) is stored on a POSIX-compliant filesystem:
+#### If all data (configuration, blobs, and metadata) is stored on a POSIX-compliant filesystem
 
 - Stop the OpenCloud instance
 
@@ -82,7 +81,7 @@ To determine which filesystems are supported, see: Filesystems and Shared Storag
 
 ### Distributed setup
 
-#### If blobs are stored on S3, while configuration and metadata remain on a POSIX-compliant filesystem:
+#### If blobs are stored on S3, while configuration and metadata remain on a POSIX-compliant filesystem
 
 - Stop the OpenCloud instance
 
@@ -94,4 +93,4 @@ To determine which filesystems are supported, see: Filesystems and Shared Storag
 
 ---
 
-#### With these backup strategies, you can ensure that your OpenCloud instance remains secure and restorable in case of issues!
+#### With these backup strategies, you can ensure that your OpenCloud instance remains secure and restorable in case of issues
